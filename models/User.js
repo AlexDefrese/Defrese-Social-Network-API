@@ -13,7 +13,7 @@ const UserSchema = new Schema(
       type: String,
       unique: true,
       required: "Email is required to proceed, please enter an email",
-      // match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/],
+      match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/],
     },
 
     thoughts: [
@@ -39,7 +39,7 @@ const UserSchema = new Schema(
   }
 );
 
-UserSchema.virtual("freindCount").get(function () {
+UserSchema.virtual("friendCount").get(function () {
   return this.friends.length;
 });
 
