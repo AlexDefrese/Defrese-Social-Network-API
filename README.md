@@ -17,7 +17,7 @@
   ### MIT
 
   ## <u>Description</u>
-  ### This is the backend of  socail media app, demonstrating CRUD methods for users and posts. 
+  ### This is the backend of  social media app, demonstrating CRUD methods for users and posts. 
 
 ## Built With: 
 - JavaScript
